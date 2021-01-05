@@ -1,0 +1,70 @@
+.parent_sidemenu{
+    position:fixed;
+    width: 215px;
+    height: 1084px;
+    left: 0px;
+    top: 0px;
+    background: #FF6C40;
+    transform: translateX(0px);
+
+}
+.parent_sidemenu ul{
+    list-style-type: none;
+    padding:0;
+}
+.each_menuitem_sidemenu{
+    display:flex;
+    color: white;
+    width: 215px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    cursor:pointer;
+}
+.each_menuitem_sidemenu:hover{
+    cursor:pointer;
+}
+.each_itemchild_sidemenu{
+    display:flex;
+}
+.item_name_sidemenu{
+    font-size: 21px;
+    flex-basis: 55%;
+    display: flex;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    padding-left: 6px;
+}
+.icons_sidemenu{
+    font-size: 24px!important;
+}
+.icons_parent_sidemenu{
+    width: 30px;
+}
+.active_sidemenu{
+    background: #FFC480;
+}
+.burgericon_sidemenu{
+    font-size: 44px!important;
+    cursor: pointer;
+}
+.transition_sidemenu{
+    transform: translateX(0px)!important;
+    z-index: 400;
+}
+@media screen and (max-width: 798px){
+    .parent_sidemenu{
+        transform:translateX(-1000px);
+        transition:transform 1000ms;
+    }
+  }
+ @media screen and (max-width: 1092px){
+    .parent_sidemenu{
+        transform:translateX(-1000px);
+        transition:transform 1000ms;
+    }
+    
+}

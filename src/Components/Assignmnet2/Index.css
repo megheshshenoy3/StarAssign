@@ -1,0 +1,11 @@
+.position_index2{
+    margin-left:21%
+}
+@media screen and (max-width: 798px){
+    .position_index2{
+        width: 85%;
+        margin-left: 31px;
+        margin-right: 31px;
+    }
+  }
+  

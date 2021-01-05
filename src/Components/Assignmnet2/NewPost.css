@@ -1,0 +1,104 @@
+.text_input_newpost{
+    background:white;
+    margin-top: 8px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 135px;
+}
+.text_inputtextbox_newpost{
+    background: #FAFAFA;
+    border-radius: 15px;
+    border:none!important;
+    width: 96%;
+    margin: 14px!important;
+    
+}
+.text_input_newpost .MuiInput-underline::before{
+    display:none!important;
+}
+ .text_input_newpost .MuiInput-underline::after{
+    display:none!important;
+    border:none;
+}
+.pin_icon_newpost{
+    color: #ff6c40;
+    font-size: 28px!important;
+    transform: scaleX(-1)rotate(144deg)translate(3px,-3px);
+}
+.pin_icon_div_newpost{
+    padding: 4px;
+    border-radius: 29px;
+    background: #FFC480;
+    display: flex;
+    width: 45px;
+    height: 44px;
+    justify-content: center;
+    cursor:pointer;
+}
+.options_newpost {
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding-bottom: 8px;
+}
+.cancel_option_newpost{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    cursor:pointer;
+    color: #EF3E36;
+    
+}
+.spaceoptions_newpost{
+    flex:1
+}
+.postoptions_newpost{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+.expand_icon_newpost .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #f50057!important;
+    height: 37px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+    width: 27px !important;
+}
+.sharebutton_newpost{
+    background: #FF6C40!important;
+    color: #fff;
+    border-top-right-radius: 0px!important;
+    height: 37px!important;
+    width: 82px !important;
+    border-bottom-right-radius: 0px!important;
+}
+.sharediv_newpost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:73%
+}
+.expand_icon_newpost{
+    background: #FFC480;
+    width: 27px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.optionscol_newpost{
+    background: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.MuiFormControl-root {
+    padding:14px!important;
+}

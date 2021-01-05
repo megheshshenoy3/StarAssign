@@ -1,0 +1,81 @@
+.icons_notifications{
+    width: 179px;
+    height: 53px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent_icons_notifications{
+    display:flex;
+}
+.parent_notifications{
+
+
+}
+.typetext_notepadelements{
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #484848;
+}
+.description_notepadelements{
+   
+    font-family: SF Pro Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: left;
+color: #756F6F;
+
+}
+.time_notepadelements{
+    font-family: SF Pro Display;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #756F6F;    
+}
+.displaylogs_notepadelements{
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+.active_slice_notepadelements{
+    background:white!important;
+}
+.view_button_notepadcomp{
+    width: 54px;
+    height: 21px;
+    background: #F8F8F8;
+    border-radius: 15px 15px 0px 0px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    color: #756F6F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14%;
+
+}
+.icons_notifications span{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    opacity:0.6
+}
+.active_slice_notepadelements span{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    opacity:1
+}

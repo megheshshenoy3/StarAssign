@@ -1,0 +1,129 @@
+.notepad_main_notepadcomp{
+    background: #ffffff;
+    border-radius:15px;
+}
+.addnew_notepadcomp{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.inbox_notepadcomp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    border-radius: 15px;
+    padding: 20px 0px 20px  0px;
+    align-items: center;
+}
+.notes_notepadcomp{
+    display:flex;
+    margin-top: -12%;
+}
+.modal_headercontent_notepadcomp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.modal_content_notepadcomp{
+    display: flex;
+    align-items: center;
+}
+.modal_headerinput_notepadcomp{
+    margin-left:38px
+}
+.modal_headermultiinput_notepadcomp{
+    margin-left: 12px;
+}
+.febmarchgraph_notepadcomp{
+    background:white;
+    height:100%;
+    padding-top:8px;
+    border-radius:15px;
+    width: 100%;
+    height: 181px;
+    margin-left:-12%;
+}
+.notepadtext_notepadcomp{
+    font-size: 25px;
+    padding-top: 9%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 16px;
+}
+.text_header_notepadcomp{
+    font-size: 15px;
+    padding-top: 9%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 16px;
+}
+.febmarchgraphcolumn_notepadcomp{
+    background: white;
+    border-radius: 15px;
+}
+.inbox_text_notepadcomp{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #929292;
+    
+}
+.inbox_number_notepadcomp{
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.inbox_col_notepadcomp{
+    background: white;
+    border-radius: 15px;
+}
+.thismonth_graph_notepadcomp{
+    width: 42%;
+    height: 25px;
+}
+.lastmonth_graph_notepadcomp{
+    width: 42%;
+    height: 25px;
+}
+.thismonth_parent_notepadcomp{
+    background: white;
+    border-radius: 15px;
+    padding: 8px;
+}
+.thismonth_child_notepadcomp{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+.lastmonth_parent_notepadcomp{
+    background: white;
+    border-radius: 15px;
+    padding: 8px;
+}
+.lastmonth_child_notepadcomp{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+.monthheader_notepadcomp{
+    border-bottom: 0.2px solid #707070;
+    border-bottom: 0.2px solid #707070;
+    font-family: Comfortaa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}

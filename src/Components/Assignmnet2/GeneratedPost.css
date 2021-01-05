@@ -1,0 +1,98 @@
+.posts_generated{
+    display: flex;
+    justify-content: left;
+}
+.posts_content_generated{
+    padding-left: 2%;
+    flex-basis: 89%;
+}
+.typeof_generated{
+    display:flex;
+}
+.space_generated{
+    flex:1;
+}
+.posttime_generated{
+
+}
+.post_content_generated{
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity:0.5;
+    font-family: 'Poppins', sans-serif;
+
+}
+.postby_generated{
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.postheader_generated{
+    display:flex;
+    padding: 12px 0px 12px 0px;
+}
+.post_content_generated{
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.posts_parent_generated{
+    background: white;
+    padding-top: 19px;
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 14px;
+}
+.com_parent_generated{
+    background: #FAFAFA;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.postcontents_generated{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.com_child_generated{
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+}
+.com_img_div_generated{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.com_img_generated{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+.com_inputdiv_generated{
+    flex-basis: 86%;
+}
+.send_generated{
+    background:transparent!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
